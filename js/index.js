@@ -1,4 +1,4 @@
-// JavaScript Document
+/* a Pen by Diaco m.lotfollahi  : https://diacodesign.com */
 
 TweenMax.set("img",{xPercent:"-50%",yPercent:"-50%"})
 
@@ -30,3 +30,4 @@ return Math.random()*max;
 function random(min, max) {
 return min + Math.floor( Math.random() * (max - min));
 }
+/* a Pen by Diaco m.lotfollahi  : https://diacodesign.com */
