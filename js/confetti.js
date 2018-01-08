@@ -5,14 +5,14 @@ TweenMax.set("img",{xPercent:"-50%",yPercent:"-50%"})
 var svgNS = "http://www.w3.org/2000/svg";  
 
 var total = 70;
-var w = $("#confetti").width();
-var h = $("#confetti").height();
+var w = $("#mySVG").width();
+var h = $("#mySVG").height();
  
 for (i=0; i<total; i++){ 
 var myCircle = document.createElementNS(svgNS,"circle"); 
 myCircle.setAttributeNS(null,"class","dot"); 
 myCircle.setAttributeNS(null,"r",5);
-document.getElementById("confetti").appendChild(myCircle);  
+document.getElementById("mySVG").appendChild(myCircle);  
 TweenMax.set($(".dot")[i],{x:Random(w),y:0 ,scale:Random(0.5)+0.5,fill:"hsl(" + random(0,150) + ",50%,50%)"});
  animm($(".dot")[i]);
  }
