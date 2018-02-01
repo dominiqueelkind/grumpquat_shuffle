@@ -91,10 +91,11 @@ height:100%;
 
 .menu {
   margin: auto;
-  display: inline-flex;
+  width: 50%;	
+  display: block;
   flex-flow: row wrap;
   justify-content: center;
-	float: right;
+  clear: both;	
 }
 button {
   overflow: visible;
