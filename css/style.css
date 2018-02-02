@@ -112,20 +112,26 @@ button {
   border: 5px solid;
 }
 .btn.striped-shadow.white span {
-  border-color: #fff;
+  border-color: #FC466B;
   color: #fff;
-  background: #77bfa1;
+  background: #FC466B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .btn.striped-shadow.blue span {
-  border-color: #4183D7;
-  background: #77bfa1;
-  color: #4183D7;
+  border-color: #6190e8;
+  color: #fff;
+  background: #6190E8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .btn.striped-shadow.dark span {
   border-color: #393939;
-  background: #77bfa1;
-  color: #393939;
+  color: #fff;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .btn {
@@ -159,8 +165,8 @@ button.btn.striped-shadow.white:after, button.btn.striped-shadow.white:before {
     135deg,
     transparent 0,
     transparent 5px,
-    #fff 5px,
-    #fff 10px,
+    #FC466B 5px,
+    #FC466B 10px,
     transparent 10px
   );
 }
@@ -170,8 +176,8 @@ button.btn.striped-shadow.blue:after, button.btn.striped-shadow.blue:before {
     135deg,
     transparent 0,
     transparent 5px,
-    #4183D7 5px,
-    #4183D7 10px,
+    #6190e8 5px,
+    #6190e8 10px,
     transparent 10px
   );
 }
