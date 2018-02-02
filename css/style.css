@@ -33,6 +33,8 @@ img {
   height: 90vh;
 }
 
+a { text-decoration: none; }
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -205,13 +207,6 @@ button.btn.striped-shadow:after, button.btn.striped-shadow:before {
   transition: max-height .3s, width .3s, -webkit-transform .3s;
   transition: transform .3s, max-height .3s, width .3s;
   transition: transform .3s, max-height .3s, width .3s, -webkit-transform .3s;
-}
-
-.btn.striped-shadow:hover {
-  -webkit-transform: translate(-12px, 12px);
-  -ms-transform: translate(-12px, 12px);
-  transform: translate(-12px, 12px);
-  z-index: 3;
 }
 
 button.btn.striped-shadow:hover:after, button.btn.striped-shadow:hover:before {
