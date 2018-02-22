@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div{
+  display:none;
+  margin:0 auto;
+}
+
+#text_area{
+  margin: auto;
+  width: 60%;	
+  display: block;
+  flex-flow: row wrap;
+  justify-content: center;
+  clear: both; 
+  color:#000;
+  font-weight: bolder;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+li{
+  float:left;
+  margin-right:10px;
+  margin-bottom:20px;
+  list-style-type:none;
+}
+ 
+input{
+  margin-bottom:30px;
+}
+
+.capit{
+  text-transform:uppercase;
+}
+  
